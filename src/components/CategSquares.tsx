@@ -1,0 +1,66 @@
+// id: 601-700
+
+const CategSquares = [
+  {
+    id: 601,
+    title: "Дворцовая площадь",
+    category: "",
+    coords: [59.938991, 30.315473],
+    img: "../palace-square.jpeg",
+    link: "/palace-square",
+    address: "",
+    addressRus: "",
+  },
+  {
+    id: 602,
+    title: "Исаакиевская площадь",
+    category: "",
+    coords: [59.932644, 30.307927],
+    img: "../isaac-square.png",
+    link: "/isaac-square",
+    address: "",
+    addressRus: "",
+  },
+  {
+    id: 603,
+    title: "Сенатская площадь",
+    category: "",
+    coords: [59.936458, 30.302295],
+    img: "../senate-square.jpeg",
+    link: "/senate-square",
+    address: "",
+    addressRus: "",
+  },
+  {
+    id: 604,
+    title: "Площадь Искусств",
+    category: "",
+    coords: [59.937445, 30.331723],
+    img: "../art-square.jpeg",
+    link: "/art-square",
+    address: "",
+    addressRus: "",
+  },
+  {
+    id: 605,
+    title: "Казанская площадь",
+    category: "",
+    coords: [59.935002, 30.325202],
+    img: "../kazan-square.jpeg",
+    link: "/kazan-square", 
+    address: "",
+    addressRus: "",
+  },
+  {
+    id: 606,
+    title: "Манежная площадь",
+    category: "",
+    coords: [59.935913, 30.340347],
+    img: "../manezh-square.jpeg",
+    link: "/manezh-square",
+    address: "",
+    addressRus: "",
+  },
+];
+
+export default CategSquares;
