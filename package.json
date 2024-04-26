@@ -1,0 +1,40 @@
+{
+  "name": "game-hub",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@chakra-ui/react": "^2.8.1",
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@googlemaps/js-api-loader": "^1.16.6",
+    "@googlemaps/react-wrapper": "^1.1.35",
+    "@mui/material": "^5.15.0",
+    "@mui/styled-engine-sc": "^6.0.0-alpha.8",
+    "@pbe/react-yandex-maps": "^1.2.5",
+    "@react-google-maps/api": "^2.19.3",
+    "@vis.gl/react-google-maps": "^0.4.1",
+    "axios": "^1.6.0",
+    "bootstrap": "^5.3.3",
+    "framer-motion": "^10.16.4",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.10.2",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.20.1",
+    "styled-components": "^6.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.7",
+    "@types/react": "^18.0.27",
+    "@types/react-dom": "^18.0.10",
+    "@vitejs/plugin-react": "^3.1.0",
+    "@yandex/ymaps3-types": "^0.0.25",
+    "typescript": "^4.9.3",
+    "vite": "^4.1.0"
+  }
+}
