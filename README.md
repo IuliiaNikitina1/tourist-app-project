@@ -9,31 +9,58 @@
 
 **Функционал приложения на иллюстрациях**:
 
-#### Страницы достопримечательностей
+#### 1. Страницы достопримечательностей
 
-1. Внешний вид страницы музеев
+Внешний вид страницы музеев
 
-2. Внешний вид страницы соборов
+<img src = "https://github.com/IuliiaNikitina1/tourist-app-project/blob/main/pictures/museums.png" width = "500" height = "300" alt = "museums-page"/>
 
-3. Внешний вид страницы парков
+Внешний вид страницы соборов
+
+<img src = "https://github.com/IuliiaNikitina1/tourist-app-project/blob/main/pictures/cathedrals.png" width = "500" height = "300" alt = "museums-page"/>
+
+Внешний вид страницы парков
+
+<img src = "https://github.com/IuliiaNikitina1/tourist-app-project/blob/main/pictures/parks.png" width = "500" height = "300" alt = "museums-page"/>
 
 Остальные страницы имеют аналогичный дизайн. 
 
-#### Фильтрация по предпочтениям
+#### 2. Фильтрация по предпочтениям
 
-4. Фильтрация музеев по категории и цене билета
+- объединение нескольких фильтров с помощью useEffect
+- фильтры отличаются в зависимости от особенностей конкретной группы локаций. Например, вместо "категории" в Соборах есть фильтрация по религии. А в парках есть такие специфичные фильтры как "Аренда" (летнее и зимнее спортивное оборудование, средства перемещения и т.д.) и "Развлечения" (от наличия лавочек до катка и спортивных площадок).
 
-#### Поиск по названию
+#### 3. Поиск по названию
 
-5. Поиск собора по названию
+- без учета регистра
+- любое количество слов
 
-#### Добавление и удаление из избранного
+**(Пример)** Поиск музея "Кунсткамера" по названию:
 
-6. Добавление локаций в избранное и удаление двух
+<img src = "https://github.com/IuliiaNikitina1/tourist-app-project/blob/main/pictures/search-kunst.png" width = "500" height = "300" alt = "museums-page"/>
 
-#### Отображение конечного списка локаций на карте
+#### 4. Добавление и удаление из избранного
 
-7. Вывод конечного списка локаций на карту
+Страница избранного с 6-ю сохраненными локациями:
+
+<img src = "https://github.com/IuliiaNikitina1/tourist-app-project/blob/main/pictures/loved-page.png" width = "500" height = "300" alt = "museums-page"/>
+
+
+#### 5. Отображение конечного списка локаций на карте
+
+Вывод конечного списка локаций на карту:
+
+<img src = "https://github.com/IuliiaNikitina1/tourist-app-project/blob/main/pictures/route.png" width = "500" height = "300" alt = "museums-page"/>
+
+#### 6. Адаптивная верстка
+
+##### 6.1. Адаптив под экраны планшетов (до 768 пикселей)
+
+<img src = "https://github.com/IuliiaNikitina1/tourist-app-project/blob/main/pictures/tablets.png" width = "500" height = "300" alt = "museums-page"/>
+
+##### 6.2. Адаптив под экраны мобильных устройств (до 375 пикселей)
+
+<img src = "https://github.com/IuliiaNikitina1/tourist-app-project/blob/main/pictures/adaptive-mobile-2.png" width = "500" height = "300" alt = "museums-page"/>
 
 
 **Используемые технологии**:
