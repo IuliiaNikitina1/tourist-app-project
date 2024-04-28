@@ -1,6 +1,6 @@
 ## Веб-приложение на React для подбора и сохранения туристических достопримечательностей по интересам в Санкт-Петербурге.
 
-**Реализовано**:
+**Реализовано** на данный момент:
 - создан **прототип** веб-приложения для планирования туристической поездки;
 - **фильтрация** достопримечательностей из девяти разных групп (по категории, стоимости входного билета при наличии платного входа, по льготам, доступности посещения для маломобильных граждан и другим критериям);
 - **поиск** достопримечательностей **по названию** или части названия;
@@ -37,13 +37,13 @@
 
 **(Пример)** Поиск музея "Кунсткамера" по названию:
 
-<img src = "https://github.com/IuliiaNikitina1/tourist-app-project/blob/main/pictures/search-kunst.png" width = "500" height = "300" alt = "museums-page"/>
+<img src = "https://github.com/IuliiaNikitina1/tourist-app-project/blob/main/pictures/search-kunst.png" width = "600" height = "300" alt = "museums-page"/>
 
 #### 4. Добавление и удаление из избранного
 
 Страница избранного с 6-ю сохраненными локациями:
 
-<img src = "https://github.com/IuliiaNikitina1/tourist-app-project/blob/main/pictures/loved-page.png" width = "500" height = "300" alt = "museums-page"/>
+<img src = "https://github.com/IuliiaNikitina1/tourist-app-project/blob/main/pictures/loved-page.png" width = "550" height = "300" alt = "museums-page"/>
 
 
 #### 5. Отображение конечного списка локаций на карте
@@ -56,11 +56,11 @@
 
 ##### 6.1. Адаптив под экраны планшетов (до 768 пикселей)
 
-<img src = "https://github.com/IuliiaNikitina1/tourist-app-project/blob/main/pictures/tablets.png" width = "500" height = "300" alt = "museums-page"/>
+<img src = "https://github.com/IuliiaNikitina1/tourist-app-project/blob/main/pictures/tablets.png" width = "300" height = "270" alt = "museums-page"/>
 
 ##### 6.2. Адаптив под экраны мобильных устройств (до 375 пикселей)
 
-<img src = "https://github.com/IuliiaNikitina1/tourist-app-project/blob/main/pictures/adaptive-mobile-2.png" width = "500" height = "300" alt = "museums-page"/>
+<img src = "https://github.com/IuliiaNikitina1/tourist-app-project/blob/main/pictures/adaptive-mobile-2.png" width = "240" height = "400" alt = "museums-page"/>
 
 
 **Используемые технологии**:
